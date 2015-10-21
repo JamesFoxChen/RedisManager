@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisHelper", "RedisHelper\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisSingle", "RedisSingle\RedisSingle.csproj", "{1DBEE78B-37AE-4572-AC4E-0FBE14FC25CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisReadWrite", "RedisReadWrite\RedisReadWrite.csproj", "{4947BE04-56A0-428E-8517-84B2A74D0B6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1DBEE78B-37AE-4572-AC4E-0FBE14FC25CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DBEE78B-37AE-4572-AC4E-0FBE14FC25CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DBEE78B-37AE-4572-AC4E-0FBE14FC25CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4947BE04-56A0-428E-8517-84B2A74D0B6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4947BE04-56A0-428E-8517-84B2A74D0B6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4947BE04-56A0-428E-8517-84B2A74D0B6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4947BE04-56A0-428E-8517-84B2A74D0B6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

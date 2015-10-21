@@ -11,7 +11,6 @@ namespace RedisSingle
     {
         static void Main(string[] args)
         {
-
             var redis = new RedisHelper();
 
             redis.Set<string>(RedisKeys.TestKey, DateTime.Now.ToString());
