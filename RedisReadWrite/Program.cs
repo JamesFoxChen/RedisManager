@@ -13,13 +13,13 @@ namespace RedisReadWrite
         {
             var redis = new RedisHelper();
 
-            redis.Set<string>(RedisKeys.TestKey, DateTime.Now.ToString());
+            redis.Set<string>("aa", DateTime.Now.ToString());
 
-            var d = redis.Get<string>(RedisKeys.TestKey);
+            var d = redis.Get<string>("aa");
 
-            redis.Remove(RedisKeys.TestKey);
+            redis.Remove("aa");
 
-            d = redis.Get<string>(RedisKeys.TestKey);
+            d = redis.Get<string>("aa");
         }
     }
 }
