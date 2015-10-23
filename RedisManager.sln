@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisSingle", "RedisSingle\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisReadWrite", "RedisReadWrite\RedisReadWrite.csproj", "{4947BE04-56A0-428E-8517-84B2A74D0B6E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisMessageQueue", "RedisMessageQueue\RedisMessageQueue.csproj", "{AFE47333-2CD3-456A-B277-B2AC49404A1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4947BE04-56A0-428E-8517-84B2A74D0B6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4947BE04-56A0-428E-8517-84B2A74D0B6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4947BE04-56A0-428E-8517-84B2A74D0B6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFE47333-2CD3-456A-B277-B2AC49404A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE47333-2CD3-456A-B277-B2AC49404A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFE47333-2CD3-456A-B277-B2AC49404A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFE47333-2CD3-456A-B277-B2AC49404A1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
